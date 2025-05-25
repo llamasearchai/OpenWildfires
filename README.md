@@ -8,37 +8,37 @@
 
 OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection and monitoring platform that leverages modern drone technology, advanced computer vision, and OpenAI's latest AI capabilities to provide real-time wildfire detection, monitoring, and emergency response coordination.
 
-## 🚀 Key Features
+## Key Features
 
-### 🛸 Advanced Drone Integration
+### Advanced Drone Integration
 - **Multi-Drone Fleet Management**: Coordinate multiple drones for comprehensive area coverage
 - **Real-time Telemetry**: Live drone status, battery, GPS, and sensor data with InfluxDB storage
 - **Autonomous Flight Planning**: AI-powered flight path optimization for maximum coverage
 - **Edge Computing**: On-board processing for immediate threat detection
 - **MAVLink Protocol**: Full compatibility with ArduPilot and PX4 flight controllers
 
-### 🤖 AI-Powered Detection
+### AI-Powered Detection
 - **YOLOv8 & Custom Models**: State-of-the-art object detection for fire and smoke
 - **OpenAI GPT-4V Integration**: Advanced scene understanding and threat assessment
 - **Multi-Modal Analysis**: Thermal, RGB, and infrared sensor fusion
 - **Real-time Processing**: Sub-second detection with 96%+ accuracy
 - **Ensemble Detection**: Combined fire and smoke detection with confidence scoring
 
-### 🌍 Geospatial Intelligence
+### Geospatial Intelligence
 - **Precision Mapping**: Sub-meter accuracy fire location determination
 - **Terrain Analysis**: Advanced topographical fire spread modeling
 - **Weather Integration**: Real-time weather data for fire behavior prediction
 - **Risk Assessment**: AI-powered fire spread probability mapping
 - **GIS Integration**: Full support for geospatial data formats
 
-### 📡 Real-time Communication
+### Real-time Communication
 - **Instant Alerts**: Multi-channel notification system (SMS, Email, Push, WebSocket)
 - **Emergency Integration**: Direct connection to fire departments and emergency services
 - **Live Dashboard**: Real-time monitoring and control interface with React/TypeScript
 - **API-First Design**: RESTful API with OpenAPI documentation
 - **WebSocket Streaming**: Real-time data updates and live video feeds
 
-### 🏗️ Production-Ready Architecture
+### Production-Ready Architecture
 - **Microservices**: Containerized services with Docker and Kubernetes support
 - **Database**: PostgreSQL with async SQLAlchemy ORM and comprehensive migrations
 - **Caching**: Redis for high-performance caching and session management
@@ -46,7 +46,7 @@ OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection 
 - **Monitoring**: Prometheus metrics, Grafana dashboards, and structured logging
 - **CI/CD**: Comprehensive GitHub Actions pipeline with automated testing and deployment
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 - **Framework**: FastAPI with async/await support
@@ -85,7 +85,7 @@ OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection 
                     └─────────────────┘
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **AI/ML**: PyTorch 2.1+, YOLOv8, Transformers, OpenAI GPT-4V
 - **Drone Control**: MAVLink, DroneKit, MAVSDK
@@ -95,7 +95,7 @@ OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection 
 - **Infrastructure**: Docker, Kubernetes, PostgreSQL, InfluxDB
 - **Monitoring**: MLflow, Weights & Biases, Prometheus, Grafana
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -146,7 +146,7 @@ OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection 
    npm start
    ```
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### Basic Fire Detection
 ```python
@@ -190,7 +190,7 @@ print(f"Fire Risk: {analysis.risk_level}")
 print(f"Recommended Action: {analysis.recommendation}")
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 ```bash
@@ -212,7 +212,7 @@ TWILIO_AUTH_TOKEN=your_twilio_token
 SENDGRID_API_KEY=your_sendgrid_key
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -226,7 +226,7 @@ pytest -m "not slow"  # Skip slow tests
 pytest -m integration  # Run integration tests only
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **Detection Accuracy**: 96.8% (Fire), 94.2% (Smoke)
 - **Response Time**: <2 seconds from detection to alert
@@ -234,7 +234,7 @@ pytest -m integration  # Run integration tests only
 - **Battery Life**: 45-90 minutes depending on drone model
 - **Concurrent Drones**: Support for 100+ drones per instance
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -244,28 +244,28 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Nik Jois**
 - Email: nikjois@llamasearch.ai
 - GitHub: [@nikjois](https://github.com/nikjois)
 - LinkedIn: [Nik Jois](https://linkedin.com/in/nikjois)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI for advanced AI capabilities
 - YOLOv8 team for state-of-the-art object detection
 - DroneKit and MAVLink communities
 - Open source computer vision community
 
-## 📞 Support
+## Support
 
 For support, email nikjois@llamasearch.ai or create an issue on GitHub.
 
 ---
 
-**Built with ❤️ for wildfire prevention and emergency response** 
+**Built for wildfire prevention and emergency response** 
