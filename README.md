@@ -6,9 +6,11 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![CI/CD](https://github.com/llamasearchai/OpenWildfires/workflows/OpenWildfires%20CI/CD%20Pipeline/badge.svg)](https://github.com/llamasearchai/OpenWildfires/actions)
 
-OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection and monitoring platform that leverages modern drone technology, advanced computer vision, and OpenAI's latest AI capabilities to provide real-time wildfire detection, monitoring, and emergency response coordination.
+OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection and monitoring platform that leverages exclusively drone-based technology, advanced computer vision, and OpenAI's latest AI capabilities to provide real-time wildfire detection, monitoring, and emergency response coordination. Our platform operates entirely through autonomous drone networks, eliminating dependencies on external imaging systems.
 
 ## Key Features
+
+For detailed technical specifications and advanced capabilities, see [DRONE_CAPABILITIES.md](DRONE_CAPABILITIES.md).
 
 ### Advanced Drone Integration
 - **Multi-Drone Fleet Management**: Coordinate multiple drones for comprehensive area coverage

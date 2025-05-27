@@ -390,7 +390,7 @@ class TelemetryData(Base):
     
     # Sensors
     gps_fix_type = Column(Integer)
-    gps_satellites = Column(Integer)
+    gps_signal_count = Column(Integer)
     vibration_x = Column(Float)
     vibration_y = Column(Float)
     vibration_z = Column(Float)
