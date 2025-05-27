@@ -4,7 +4,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![CI/CD](https://github.com/nikjois/openwildfires/workflows/OpenWildfires%20CI/CD%20Pipeline/badge.svg)](https://github.com/nikjois/openwildfires/actions)
+[![CI/CD](https://github.com/llamasearchai/OpenWildfires/workflows/OpenWildfires%20CI/CD%20Pipeline/badge.svg)](https://github.com/llamasearchai/OpenWildfires/actions)
 
 OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection and monitoring platform that leverages modern drone technology, advanced computer vision, and OpenAI's latest AI capabilities to provide real-time wildfire detection, monitoring, and emergency response coordination.
 
@@ -107,8 +107,8 @@ OpenWildfires is a cutting-edge, production-ready AI-powered wildfire detection 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nikjois/openfire-drone-ai.git
-   cd openfire-drone-ai
+   git clone https://github.com/llamasearchai/OpenWildfires.git
+   cd OpenWildfires
    ```
 
 2. **Set up Python environment**
